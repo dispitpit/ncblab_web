@@ -1,0 +1,26 @@
+version: '3.8'
+
+services: 
+  backend: # container: flask-backend
+    build:
+      context: ./backend
+    container_name: flask-backend
+    ports:
+      - "5000:5000"       # 後端 Flask 對外開放 
+    restart: unless-stopped
+    networks:
+      - app-network
+
+  frontend: # container: vue-frontend
+    build:
+      context: ./frontend
+    container_name: vue-frontend
+    ports:
+      - "80:80"    # 前端 Vite 對外開放
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,19 @@
+/* 存放css主要變數 */
+:root {
+  /* 色彩設計 */
+  --color-bg:        #254252;  /* 主背景 Blue Dianne */
+  --color-bg-deep:   #171C2D;  /* Header/Footer 背景 Mirage */
+  --color-primary:   #E37239;  /* 主色 Red Damask */
+  --color-accent:    #F9982F;  /* 副色 Sea Buckthorn */
+  --color-warn:      #EAB56F;  /* 提示色 Peach */
+  --color-text:      #ffffff;  /* 白字（反差） */
+  --color-muted:     #cccccc;  /* 次要文字 */
+
+  /* 字體設計 */
+  --font-body:       'Inter', sans-serif;
+  --font-heading:    'Playfair Display', serif;
+
+  /* 其他 */
+  --radius:          6px;
+  --transition:      0.3s ease-in-out;
+}
