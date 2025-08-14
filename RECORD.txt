@@ -1,4 +1,0 @@
-6/28 看vue
-6/29 架基本架構
-6/30 接API1
-7/1 處理API2資料、確定所有API、看docker + nginx
