@@ -38,3 +38,5 @@ ehthumbs.db      # Windows
 
 *.ipynb linguist-vendored
 RECORD.txt
+flower_model_train.ipynb
+flower_images/
