@@ -1,4 +1,4 @@
-下載後在終端機下載:
+下載後在終端機輸入:
 1.前端vue: npm install axios
 2.後端flask: pip install flask flask-cors
 -
