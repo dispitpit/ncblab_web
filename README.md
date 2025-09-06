@@ -13,35 +13,31 @@
 #### 1. 前端 Vue
 
 ```bash
-npm install axios
+cd frontend
+npm install
 ```
+#### 本端測試
+```bash
+npm run dev
+```
+
+* 注意: 如果npm指令被檔需到PowerShell修改權限
+
+---
 
 #### 2. 後端 Flask
 
 ```bash
+cd backend
 pip install flask flask-cors
 ```
-
----
-
-### 本端測試
-
-#### 開啟終端機1：啟動後端
-
+#### 本端測試
 ```bash
-cd backend
 pip install -r requirements.txt
 python main_api.py
 ```
 
----
-
-#### 開啟終端機2：啟動前端
-
-```bash
-cd frontend
-npm run dev
-```
+* 注意: 前後端同時啟動本端測試需開啟兩個terminal
 
 *************
 
