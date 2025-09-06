@@ -1,4 +1,4 @@
-# ncblab_web
+# NcbLab_web
 
 ### 平台介紹
 本 project 是專為 NcbLab 成員設計的基礎模板，方便大家將各種模型快速部署到網站上。
