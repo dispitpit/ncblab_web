@@ -45,3 +45,4 @@ python main_api.py
 
 此port和host設定為公開網站使用
 如在本地端測試，請修改port、host為適合本地的設定，避免前後端無法連接
+上線前須檢查安全
